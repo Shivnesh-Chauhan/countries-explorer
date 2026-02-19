@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Explorer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="Style.css"/> 
+</head>
+<body>
+
+    <header class="header-container">
+        <div class="header-content">
+            <h2 class="title"><a href="/">Where in the world</a></h2>
+            <button class="theme-toggle"><i class="fa-regular fa-moon"></i>Dark Mode</button>
+        </div>
+    </header>
+
+    <main>  
+        
+        <div class="search-filter-container">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="search-input" placeholder="Search for a country...">
+            </div>
+
+            <select class="filter-by-region">
+                <option hidden>Filter by region</option>
+                <option value="africa">Africa</option>
+                <option value="americas">America</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europe</option>
+                <option value="oceania">Oceania</option>
+           
+            </select>
+
+        </div>
+
+        <div class="contries-container">
+            <!-- <a href="#" class="country-card">
+                <img src="https://flagcdn.com/gb.svg" alt="flag"/>
+                <div class="card-text">
+                    <h3 calss="card-title">United Kingdom</h3>
+                    <p><b>Population: </b>69281437</p>
+                    <p><b>Region: </b>Europe</p>
+                    <p><b>Capital: </b>Landon</p>
+
+                </div>
+    
+            </a> -->
+
+             
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
